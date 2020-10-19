@@ -55,7 +55,7 @@ public class LRUCache {
             cache.put(key, cacheNode);
             addNode(cacheNode);
            //容量不够弹出最后
-            
+
         }
     }
 
